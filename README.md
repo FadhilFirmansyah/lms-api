@@ -2,12 +2,12 @@
 ## Project LMS API Laravel w/ Docker
 
 ## Fitur
-- Register, Login, & Logout
-- Course Analytic
-- Limitation Maximum Student Enroll
-- Announcement
-- Feedback
-- Category
+- Register, Login, & Logout - Point 1
+- Course Analytic - Point 1
+- Limitation Maximum Student Enroll - Point 1
+- Announcement - Point 4
+- Feedback - Point 4
+- Category - Point 4
 
 ## Technology Stack
 - Laravel - Framework PHP
