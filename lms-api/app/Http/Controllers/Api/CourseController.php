@@ -70,10 +70,6 @@ class CourseController extends Controller
     {
         $course = Course::findOrFail($course_id);
 
-        if ($course->teacher_id !== $request->user()->id) {
-            return response()->json(['error' => 'Unauthorized'], 401);
-        }
-
         $validated = $request->validate([
             'name' => 'required|string|max:255',
             'url' => 'required|string',
