@@ -47,7 +47,7 @@ class CourseController extends Controller
             'price' => 'required|integer',
             'image' => 'nullable|image',
             'max_students' => 'required|integer',
-            'teacher_id' => 'required|exists:users,id',
+            'teacher_id' => 'nullable|exists:users,id',
         ]);
 
         $course = new Course($validated);
